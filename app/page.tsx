@@ -43,7 +43,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://twitter.com/MarkusTrachsel1"
             className="flex items-center gap-2"
           >
             <TwitterIcon />
@@ -52,7 +52,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/leerob"
+            href="https://github.com/markus-codechefs"
             className="flex items-center gap-2"
           >
             <GitHubIcon />
@@ -73,23 +73,12 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://twitter.com/MarkusTrachsel1"
           >
             <ArrowIcon />
             <p className="h-7">follow me on twitter</p>
           </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://leerob.substack.com"
-          >
-            <ArrowIcon />
-            <p className="h-7">get email updates</p>
-          </a>
-        </li>
+        </li>        
       </ul>
     </section>
   );
