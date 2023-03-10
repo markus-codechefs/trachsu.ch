@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "setup": "node ./lib/setup.mjs"
+    "test": "next build && next start"
   },
   "dependencies": {
     "@next/font": "13.1.7-canary.5",
