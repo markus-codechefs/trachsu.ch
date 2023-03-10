@@ -4,7 +4,7 @@ import { getBlogViews, getTweetCount, getStarCount } from 'lib/metrics';
 import {
   ArrowIcon,
   GitHubIcon,
-  TwitterIcon,
+  TwitterIcon,  
   ViewsIcon,
 } from 'components/icons';
 import { name, about, bio, avatar } from 'lib/info';
@@ -73,29 +73,12 @@ export default async function HomePage() {
             rel="noopener noreferrer"
             target="_blank"
             href="https://twitter.com/MarkusTrachsel1"
-            className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+            className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
           >
-            <div className="flex items-center">
-              <TwitterIcon />
-              <div className="ml-3">Twitter</div>
-            </div>
             <ArrowIcon />
+            <p className="h-7">follow me on twitter</p>
           </a>
-        </li>        
-        <li>
-        <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/markus-codechefs"
-            className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
-          >
-            <div className="flex items-center">
-              <GitHubIcon />
-              <div className="ml-3">Github</div>
-            </div>
-            <ArrowIcon />
-          </a>
-        </li>        
+        </li>                
       </ul>
     </section>
   );
