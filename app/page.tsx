@@ -1,13 +1,13 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import { getBlogViews, getTweetCount, getStarCount } from 'lib/metrics';
+import Link from "next/link";
+import Image from "next/image";
+import { getBlogViews, getTweetCount, getStarCount } from "lib/metrics";
 import {
   ArrowIcon,
   GitHubIcon,
-  TwitterIcon,  
+  TwitterIcon,
   ViewsIcon,
-} from 'components/icons';
-import { name, about, bio, avatar } from 'lib/info';
+} from "components/icons";
+import { name, about, bio, avatar, credits } from "lib/info";
 
 export const revalidate = 60;
 
@@ -67,9 +67,9 @@ export default async function HomePage() {
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
         {bio()}
       </p>
-      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">       
+      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
         <li>
-        <a
+          <a
             rel="noopener noreferrer"
             target="_blank"
             href="https://twitter.com/MarkusTrachsel1"
@@ -78,8 +78,20 @@ export default async function HomePage() {
             <ArrowIcon />
             <p className="h-7">follow me on twitter</p>
           </a>
-        </li>                
+        </li>
       </ul>
+      <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
+        {credits()}
+      </p>
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://leerob.io"
+        className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
+      >
+        <ArrowIcon />
+        <p className="h-7">leerob.io</p>
+      </a>
     </section>
   );
 }
