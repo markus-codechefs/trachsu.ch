@@ -5,14 +5,14 @@ export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I'm a developer who loves Next.js. I work at BigCo or CoolStartup as a Software Engineer.
+      As a software architect and full-stack engineer, I bring a passion for empowering agile software teams through DevOps principles, small batch sizes, and frequent deployments. My approach prioritizes people over technology, recognizing the vital role software plays in supporting and improving organizational goals. My expertise extends to process automation and integration and pipelines, which allows me to help clients optimize their productivity and efficiency through the use of appropriate technology. 
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-      When I'm not coding, I'm probably playing video games or watching anime. I also love to travel and explore new places.
+      Beyond work, I spend time with my familiy, I also enjoy playing basketball and exploring my culinary creativity in the kitchen.
     </>
   );
 };
