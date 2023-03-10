@@ -23,13 +23,7 @@ const navItems = {
     x: 127,
     y: 69,
     w: '56px',
-  },
-  '/guestbook': {
-    name: 'guestbook',
-    x: 182,
-    y: 104,
-    w: '100px',
-  },
+  },  
 };
 
 function Logo() {
