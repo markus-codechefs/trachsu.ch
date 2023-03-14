@@ -29,12 +29,12 @@ const computedFields = {
       dateModified: doc.publishedAt,
       description: doc.summary,
       image: doc.image
-        ? `https://leerob.io${doc.image}`
-        : `https://leerob.io/api/og?title=${doc.title}`,
-      url: `https://leerob.io/blog/${doc._raw.flattenedPath}`,
+        ? `https://trachsu.ch${doc.image}`
+        : `https://trachsu.ch/api/og?title=${doc.title}`,
+      url: `https://trachsu.ch/blog/${doc._raw.flattenedPath}`,
       author: {
         '@type': 'Person',
-        name: 'Lee Robinson',
+        name: 'Markus Trachsel',
       },
     }),
   },
