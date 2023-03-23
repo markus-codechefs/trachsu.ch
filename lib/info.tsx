@@ -24,10 +24,8 @@ export const bio = () => {
 };
 export const credits = () => {
   return (
-    <>
-    <b>Credits</b>
-    <br/>
-      Many thanks to Lee Robinson (leerob) for this awesome template!      
+    <>    
+      <p>Many thanks to Lee Robinson (<b>leerob</b>) for this awesome template!</p>
     </>
   );
 };
