@@ -1,5 +1,7 @@
 # trachsu.ch
 
+[Deploy]: # https://api.vercel.com/v1/integrations/deploy/prj_0fVOavLOZ58INxMEnllIF475qWu2/lByRCMNj8Q
+
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [PlanetScale](https://planetscale.com)
 - **Authentication**: [NextAuth.js](https://next-auth.js.org)
