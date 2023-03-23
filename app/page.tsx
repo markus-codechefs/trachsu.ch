@@ -86,11 +86,11 @@ export default async function HomePage() {
       <a
         rel="noopener noreferrer"
         target="_blank"
-        href="https://leerob.io"
+        href="https://trachsu.ch"
         className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
       >
         <ArrowIcon />
-        <p className="h-7">leerob.io</p>
+        <p className="h-7">trachsu.ch</p>
       </a>
     </section>
   );

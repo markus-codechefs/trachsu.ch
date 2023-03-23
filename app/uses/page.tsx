@@ -27,11 +27,7 @@ export default function UsesPage() {
         <h3 id="coding">Coding</h3>
         <ul>
           <li>
-            Editor: VSCode (
-            <a href="https://gist.github.com/leerob/e7883ab35d900b8cbb684ac77e7c4703">
-              Settings / Extensions
-            </a>
-            )
+            Editor: VSCode (Settings / Extensions)
           </li>
           <li>Theme: One Dark Pro</li>
           <li>Terminal: Hyper / zsh</li>

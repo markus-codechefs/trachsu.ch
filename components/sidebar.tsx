@@ -24,11 +24,17 @@ const navItems = {
     y: 69,
     w: '56px',
   },  
+  '/credits': {
+    name: 'credits',
+    x: 127,
+    y: 69,
+    w: '56px',
+  },  
 };
 
 function Logo() {
   return (
-    <Link aria-label="Lee Robinson" href="/">
+    <Link aria-label="Markus Trachsel" href="/">
       <motion.svg
         className="text-black dark:text-white h-[25px] md:h-[37px]"
         width="25"

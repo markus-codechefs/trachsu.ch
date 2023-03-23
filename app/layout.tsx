@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Markus Trachsel',
     images: [
       {
-        url: 'https://leerob.io/og.jpg',
+        url: 'https://trachsu.ch/og.jpg',
         width: 1920,
         height: 1080,
       },

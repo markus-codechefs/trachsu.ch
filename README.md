@@ -14,7 +14,7 @@ This application requires Node.js v16.13+.
 
 ```bash
 git clone https://github.com/markus-codechefs/trachsu.ch.git
-cd leerob.io
+cd trachsu.ch
 pnpm install
 pnpm run setup # Remove all of my personal information
 pnpm dev
