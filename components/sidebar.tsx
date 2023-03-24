@@ -26,9 +26,9 @@ const navItems = {
   },  
   '/credits': {
     name: 'credits',
-    x: 127,
-    y: 69,
-    w: '56px',
+    x: 190,
+    y: 103,
+    w: '72px',
   },  
 };
 
