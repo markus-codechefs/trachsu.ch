@@ -43,7 +43,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/MarkusTrachsel1"
+            href="https://twitter.com/markus_trachsel"
             className="flex items-center gap-2"
           >
             <TwitterIcon />
@@ -72,7 +72,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/MarkusTrachsel1"
+            href="https://twitter.com/markus_trachsel"
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
           >
             <ArrowIcon />
