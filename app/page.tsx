@@ -79,19 +79,7 @@ export default async function HomePage() {
             <p className="h-7">follow me on twitter</p>
           </a>
         </li>
-      </ul>
-      <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
-        {credits()}
-      </p>
-      <a
-        rel="noopener noreferrer"
-        target="_blank"
-        href="https://trachsu.ch"
-        className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
-      >
-        <ArrowIcon />
-        <p className="h-7">trachsu.ch</p>
-      </a>
+      </ul>      
     </section>
   );
 }
