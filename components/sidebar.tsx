@@ -20,14 +20,14 @@ const navItems = {
   },
   '/projects': {
     name: 'projects',
-    x: 190,
-    y: 103,
+    x: 127,
+    y: 69,    
     w: '82px',
   },  
   '/blog': {
     name: 'blog',
-    x: 127,
-    y: 69,
+    x: 190,
+    y: 103,
     w: '56px',
   },    
   '/credits': {
