@@ -29,3 +29,11 @@ export const credits = () => {
     </>
   );
 };
+
+export const projects = () => {
+  return (
+    <>    
+      <p>Here will be listed some reference projects which I worked on</p>
+    </>
+  );
+};

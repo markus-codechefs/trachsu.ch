@@ -18,16 +18,22 @@ const navItems = {
     y: 35,
     w: '65px',
   },
+  '/projects': {
+    name: 'projects',
+    x: 190,
+    y: 103,
+    w: '82px',
+  },  
   '/blog': {
     name: 'blog',
     x: 127,
     y: 69,
     w: '56px',
-  },  
+  },    
   '/credits': {
     name: 'credits',
-    x: 190,
-    y: 103,
+    x: 253,
+    y: 137,
     w: '72px',
   },  
 };
