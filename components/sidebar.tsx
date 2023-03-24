@@ -26,13 +26,13 @@ const navItems = {
   },  
   '/blog': {
     name: 'blog',
-    x: 190,
+    x: 210,
     y: 103,
     w: '56px',
   },    
   '/credits': {
     name: 'credits',
-    x: 253,
+    x: 266,
     y: 137,
     w: '72px',
   },  
