@@ -3,6 +3,7 @@ import {
   InstaIcon,
   ArrowIcon,
   TwitterIcon,
+  MailIcon,
 } from "components/icons";
 
 export default function AboutPage() {
@@ -55,6 +56,18 @@ export default function AboutPage() {
           <div className="flex items-center">
             <InstaIcon />
             <div className="ml-3">Instagram</div>
+          </div>
+          <ArrowIcon />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="mailto:markus@codechefs.ch"
+          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+        >
+          <div className="flex items-center">
+            <MailIcon />
+            <div className="ml-3">E-Mail</div>
           </div>
           <ArrowIcon />
         </a>
