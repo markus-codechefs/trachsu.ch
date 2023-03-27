@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@next/font': 13.1.7-canary.5
+  '@next/font': 13.2.4
   '@octokit/rest': ^19.0.7
   '@planetscale/database': ^1.5.0
   '@tailwindcss/typography': ^0.5.9
@@ -37,7 +37,7 @@ specifiers:
   typescript: 4.9.4
 
 dependencies:
-  '@next/font': 13.1.7-canary.5
+  '@next/font': 13.2.4
   '@octokit/rest': 19.0.7
   '@planetscale/database': 1.5.0
   '@vercel/analytics': 0.1.8_react@18.2.0
@@ -613,8 +613,8 @@ packages:
     resolution: {integrity: sha512-dF+V7kqOSJyHHnjyywarsOObGjGIQufibYsQDfZ/OBvQUhvfOYh5G9LvYWIOLxKspVW4HVOBi6KGgTDrP9U6yw==}
     dev: false
 
-  /@next/font/13.1.7-canary.5:
-    resolution: {integrity: sha512-KqH0sFJHxYy/fiHOlVsg4vvrQjC5s+6wJO5e8xdmwZDJFliUgwDBbLg+stGSHkk/VAROo3BQw61tKvPoZyPm5A==}
+  /@next/font/13.2.4:
+    resolution: {integrity: sha512-lMAnuOYjv5g22WhD00u0DQ9u2rTMJH0S64PKE4Sy8Y2q+FJTYs6ZHT2z3VRoI8+AOWSLK4FirpnygcjOienQ9A==}
     dev: false
 
   /@next/swc-android-arm-eabi/13.1.7-canary.14:
