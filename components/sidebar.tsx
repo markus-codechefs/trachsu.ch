@@ -31,16 +31,10 @@ const navItems = {
     w: '56px',
   },    
   '/impressum': {
-    name: 'impressum',
+    name: 'imprint',
     x: 266,
     y: 137,
     w: '104px',
-  },
-  '/credits': {
-    name: 'credits',
-    x: 372,
-    y: 171,
-    w: '72px',
   },  
 };
 

@@ -32,17 +32,17 @@ export const credits = () => {
   );
 };
 
-export const impressum = () => {
+export const imprint = () => {
   return (
     <>
       <p>
         <b>E-Mail:</b> markus@codechefs.ch
       </p>
       <p>
-        <b>Internet:</b> trachsu.ch
+        <b>Website:</b> trachsu.ch
       </p>
       <p>
-        <b>Vertretungsberechtigte Personen: </b>Markus Trachsel
+        <b>Authorized representative: </b>Markus Trachsel
       </p>
     </>
   );
