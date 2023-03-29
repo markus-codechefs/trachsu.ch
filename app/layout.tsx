@@ -22,14 +22,7 @@ export const metadata: Metadata = {
     title: 'Markus Trachsel',
     description: 'Developer, cook, and foodie.',
     url: 'https://trachsu.ch',
-    siteName: 'Markus Trachsel',
-    images: [
-      {
-        url: 'https://trachsu.ch/og.jpg',
-        width: 1920,
-        height: 1080,
-      },
-    ],
+    siteName: 'Markus Trachsel',   
     locale: 'en-US',
     type: 'website',
   },
