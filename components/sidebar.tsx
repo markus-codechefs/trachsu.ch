@@ -34,7 +34,7 @@ const navItems = {
     name: 'imprint',
     x: 266,
     y: 137,
-    w: '104px',
+    w: '78px',
   },  
 };
 
