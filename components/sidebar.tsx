@@ -43,9 +43,9 @@ function Logo() {
     <Link aria-label="Markus Trachsel" href="/">
       <motion.svg
         className="text-black dark:text-white h-[25px] md:h-[37px]"
-        width="25"
+        width="35"
         height="37"
-        viewBox="0 0 232 316"
+        viewBox="0 0 324 316"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -67,7 +67,7 @@ function Logo() {
           stroke="currentColor"
           strokeWidth={78}
         />
-        <motion.path
+         <motion.path
           initial={{ x: -200, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{
@@ -75,8 +75,28 @@ function Logo() {
             type: 'spring',
             stiffness: 50,
           }}
-          d="M232 314.998H129.852L232 232.887V314.998Z"
+          d="M100 7H180L140 120L100 7Z"
+          stroke="currentColor"
+          strokeWidth={15}
           fill="currentColor"
+        />
+         <motion.path
+          initial={{
+            opacity: 0,
+            pathLength: 0,
+          }}
+          animate={{
+            opacity: 1,
+            pathLength: 1,
+          }}
+          transition={{
+            duration: 0.5,
+            type: 'spring',
+            stiffness: 50,
+          }}
+          d="M246 324V0"
+          stroke="currentColor"
+          strokeWidth={78}
         />
       </motion.svg>
     </Link>
