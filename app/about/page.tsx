@@ -11,17 +11,97 @@ export default function AboutPage() {
     <section>
       <h1 className="font-bold text-3xl font-serif">About Me</h1>
       <p className="my-5 text-neutral-800 dark:text-neutral-200">
-        Hi I'm Markus Trachsel nice to meet you! As a software architect and
-        full-stack engineer, I bring a passion for empowering agile software
-        teams through DevOps principles, small batch sizes, and frequent
-        deployments. My approach prioritizes people over technology, recognizing
-        the vital role software plays in supporting and improving organizational
-        goals. My expertise extends to process automation and integration and
-        pipelines, which allows me to help clients optimize their productivity
-        and efficiency through the use of appropriate technology. Beyond work, I
-        enjoy playing basketball and exploring my culinary creativity in the
-        kitchen.
+        Hi I'm Markus Trachsel nice to meet you!{" "}
       </p>
+      <p className="my-5 text-neutral-800 dark:text-neutral-200">
+        {" "}
+        As a software architect and full-stack engineer, I bring a passion for
+        empowering agile software teams through DevOps principles, small change
+        sizes, and frequent deployments to production. My approach prioritizes
+        people over technology, recognizing the vital role software plays in
+        supporting and improving organizational goals.{" "}
+      </p>
+
+      <p className="my-5 text-neutral-800 dark:text-neutral-200">
+        My expertise extends to process automation and integration and
+        pipelines, which allows me to help clients optimize their productivity
+        and efficiency through the use of appropriate technology.
+      </p>
+      <h2 className="font-bold text-3xl font-serif">Personal</h2>
+      <p className="my-5 text-neutral-800 dark:text-neutral-200">
+        {" "}
+        In addition to my work, I have a variety of interests and hobbies that
+        keep me busy and fulfilled. One of my favorite pastimes is playing
+        basketball. I also enjoy spending quality time with my family, making
+        memories and sharing experiences together. Another way I like to spend
+        my free time is by exploring my culinary creativity in the kitchen.
+        Creating high quality food has become a passion of mine, and I love
+        experimenting with new recipes and ingredients.
+      </p>
+      <h2 className="font-bold my-5 text-3xl font-serif">
+        Skills / Technologies
+      </h2>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>.NET Core</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>React</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>Angular</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>MS-SQL</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>C#</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>DOCKER</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>AWS</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>AZURE</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 ml-10 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>API Development</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>Architecture</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>Kanban</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>DevOps</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>Rabbit-MQ</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>Elastic Stack</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>Octopus Deploy</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>Kubernetes</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>Rancher 2</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>Datadog</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>Swagger</p>
+      </div>
+      <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
+        <p>Next.js</p>
+      </div>
+      <h2 className="font-bold text-3xl font-serif my-5">Links</h2>
       <div className="flex flex-col gap-2 md:flex-row md:gap-2">
         <a
           rel="noopener noreferrer"
