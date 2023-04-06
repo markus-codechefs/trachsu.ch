@@ -4,6 +4,7 @@ import {
   ArrowIcon,
   TwitterIcon,
   MailIcon,
+  LinkedinIcon,
 } from "components/icons";
 
 export default function AboutPage() {
@@ -102,16 +103,28 @@ export default function AboutPage() {
         <p>Next.js</p>
       </div>
       <h2 className="font-bold text-3xl font-serif my-5">Links</h2>
-      <div className="flex flex-col gap-2 md:flex-row md:gap-2">
+      <div className="flex flex-col gap-2 md:flex-row md:gap-2">        
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="https://twitter.com/trachsel_markus"
+          href="mailto:markus@codechefs.ch"
           className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
         >
           <div className="flex items-center">
-            <TwitterIcon />
-            <div className="ml-3">Twitter</div>
+            <MailIcon />
+            <div className="ml-3">E-Mail</div>
+          </div>
+          <ArrowIcon />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.linkedin.com/in/markustrachsel"
+          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+        >
+          <div className="flex items-center">
+            <LinkedinIcon />
+            <div className="ml-3">Linkedin</div>
           </div>
           <ArrowIcon />
         </a>
@@ -142,12 +155,12 @@ export default function AboutPage() {
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="mailto:markus@codechefs.ch"
+          href="https://twitter.com/trachsel_markus"
           className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
         >
           <div className="flex items-center">
-            <MailIcon />
-            <div className="ml-3">E-Mail</div>
+            <TwitterIcon />
+            <div className="ml-3">Twitter</div>
           </div>
           <ArrowIcon />
         </a>
