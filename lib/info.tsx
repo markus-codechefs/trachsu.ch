@@ -44,11 +44,3 @@ export const imprint = () => {
     </>
   );
 };
-
-export const projects = () => {
-  return (
-    <>
-      <p>Here will be listed some reference projects which I worked on</p>
-    </>
-  );
-};

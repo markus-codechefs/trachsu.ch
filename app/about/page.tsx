@@ -58,7 +58,7 @@ export default function AboutPage() {
         <p>C#</p>
       </div>
       <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
-        <p>DOCKER</p>
+        <p>Open AI</p>
       </div>
       <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
         <p>AWS</p>

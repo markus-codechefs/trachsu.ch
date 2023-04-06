@@ -23,13 +23,7 @@ const navItems = {
     x: 127,
     y: 69,    
     w: '82px',
-  },  
-  '/blog': {
-    name: 'blog',
-    x: 210,
-    y: 103,
-    w: '56px',
-  },      
+  },       
 };
 
 function Logo() {
