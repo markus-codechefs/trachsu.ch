@@ -7,10 +7,7 @@ export const about = () => {
     <>
       As a full-stack engineer, I bring a passion for empowering agile software
       teams through DevOps principles, small batch sizes, and frequent
-      deployments. I prioritize people over technology. My expertise extends to
-      process automation and integration and pipelines, which allows me to help
-      clients optimize their productivity and efficiency through the use of
-      appropriate technology.
+      deployments. I prioritize people over technology.       
     </>
   );
 };
