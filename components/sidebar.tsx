@@ -29,13 +29,7 @@ const navItems = {
     x: 210,
     y: 103,
     w: '56px',
-  },    
-  '/impressum': {
-    name: 'imprint',
-    x: 266,
-    y: 137,
-    w: '78px',
-  },  
+  },      
 };
 
 function Logo() {
