@@ -23,7 +23,7 @@ export default function ProjectsPage() {
       <div className="grid grid-cols-2 gap-4">
         <div>
           {project(
-            "Increased deployment frequency at immoscout24.ch",
+            "Increased deployment frequency at immoscout24",
             "Applying the DORA metrics and modern practices like CI /CD we increased the deployment frequency to production from 4 times per month to 200!",
             ["Github", "octopus deploy", "bamboo", "process"]
           )}
