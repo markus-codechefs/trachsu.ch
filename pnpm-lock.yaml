@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@next/font':
-    specifier: 13.3.2
-    version: 13.3.2
+    specifier: 13.4.1
+    version: 13.4.1
   '@octokit/rest':
     specifier: ^19.0.7
     version: 19.0.7
@@ -636,8 +636,8 @@ packages:
     resolution: {integrity: sha512-oTK/wRV2qga86m/4VdrR1+/56UA6U1Qv3sIgowB+bZjahniZLEG5BmmQjfoGv7ZuLXBZ8Eec6hkL9BqJcrEL2g==}
     dev: false
 
-  /@next/font@13.3.2:
-    resolution: {integrity: sha512-gQICS3IZIbITqxqBVD0K8ng9ib0bxsOxVhTLeQyBlL773sNQoWIhJOyUHhYw1kSaOWP5BiFEmTvjNQNKwYuVKQ==}
+  /@next/font@13.4.1:
+    resolution: {integrity: sha512-GIgdVNXhWgGq92NUSGVd4n2yiF1k0i6U3dt/Pa9SFJvOEJyAJ99khXVq6cYJYJS8jhbL0yjE8+th8h+KjIGzuA==}
     dev: false
 
   /@next/swc-darwin-arm64@13.3.4:
@@ -2888,7 +2888,6 @@ packages:
   /next@13.3.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-sod7HeokBSvH5QV0KB+pXeLfcXUlLrGnVUXxHpmhilQ+nQYT3Im2O8DswD5e4uqbR8Pvdu9pcWgb1CbXZQZlmQ==}
     engines: {node: '>=16.8.0'}
-    hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
       fibers: '>= 3.1.0'
