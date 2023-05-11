@@ -19,6 +19,15 @@ export const bio = () => {
     </>
   );
 };
+
+export const meat = () => {
+  return (
+    <>
+      For great food you need high quality ingridients. Thus, I started Dry Aging my own beef at home. See more about this on the about page.
+    </>
+  );
+};
+
 export const credits = () => {
   return (
     <>

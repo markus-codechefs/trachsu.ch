@@ -28,18 +28,7 @@ export default function AboutPage() {
         pipelines, which allows me to help clients optimize their productivity
         and efficiency through the use of appropriate technology.
       </p>
-      <h2 className="font-bold text-3xl font-serif">Personal</h2>
-      <p className="my-5 text-neutral-800 dark:text-neutral-200">
-        {" "}
-        In addition to my work, I have a variety of interests and hobbies that
-        keep me busy and fulfilled. One of my favorite pastimes is playing
-        basketball. I also enjoy spending quality time with my family, making
-        memories and sharing experiences together. Another way I like to spend
-        my free time is by exploring my culinary creativity in the kitchen.
-        Creating high quality food has become a passion of mine, and I love
-        experimenting with new recipes and ingredients.
-      </p>
-      <h2 className="font-bold my-5 text-3xl font-serif">
+      <h2 className="font-bold my-5 text-2xl font-serif">
         Skills / Technologies
       </h2>
       <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
@@ -102,8 +91,37 @@ export default function AboutPage() {
       <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 my-2 mx-2 bg-neutral-200 text-neutral-800 dark:text-black-200 rounded-full">
         <p>Next.js</p>
       </div>
-      <h2 className="font-bold text-3xl font-serif my-5">Links</h2>
-      <div className="flex flex-col gap-2 md:flex-row md:gap-2">        
+      <h2 className="font-bold my-5 text-2xl font-serif">Personal</h2>
+      <p className="my-5 text-neutral-800 dark:text-neutral-200">
+        {" "}
+        In addition to my work, I have a variety of interests and hobbies that
+        keep me busy. One of my favorite pastimes is playing
+        basketball. I also enjoy spending quality time with my family, making
+        memories and sharing experiences together. Another way I like to spend
+        my free time is by exploring my culinary creativity in the kitchen.
+        Creating high quality food has become a passion of mine, and I love
+        experimenting with new recipes and ingredients.
+      </p>
+      <h2 className="font-bold my-5 text-2xl font-serif">Side Hustle</h2>
+      <h3 className="font-bold my-5 font-serif">Dry Aging Meat</h3>
+      <p className="my-5 text-neutral-800 dark:text-neutral-200">
+        {" "}
+        I dry age swiss beef and pork backs for 8 and 6 weeks respectively with the awsome products of dry-ager.com.
+        This creates high quality, juicy steaks that make any networking event
+        the talk of the town for weeks to come.
+      </p>      
+      <h3 className="font-bold my-5 font-serif">Sauces</h3>
+      <p className="my-5 text-neutral-800 dark:text-neutral-200">
+        {" "}
+        From the bones and leftovers of the dry agining, my colleague and I make
+        amazing jus (glace de viande). Basically an absurdly reduced stock without the fat.
+      </p>
+      <p className="my-5 text-neutral-800 dark:text-neutral-200">
+        {" "}        
+        I'm also the co-creator of Bern's self proclaimed BBQ sauce "Bär-BQ". This was all the rage back in 2019. We sold it in a few butcher shops in Bern and our personal online store - www.bärfoods.ch. (now decomissioned)
+      </p>
+      <h2 className="font-bold text-2xl font-serif my-5">Links</h2>
+      <div className="flex flex-col gap-2 md:flex-row md:gap-2">
         <a
           rel="noopener noreferrer"
           target="_blank"

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import { getStarCount } from "lib/metrics";
 import {  
@@ -7,7 +6,7 @@ import {
   MailIcon,
   LinkedinIcon,
 } from "components/icons";
-import { name, about, bio, avatar } from "lib/info";
+import { name, about, bio, avatar, meat } from "lib/info";
 
 export const revalidate = 60;
 
@@ -84,6 +83,9 @@ export default async function HomePage() {
       </div>
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
         {bio()}
+      </p>      
+      <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
+        {meat()}
       </p>      
     </section>
   );
