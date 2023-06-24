@@ -14,8 +14,8 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0(react@18.2.0)
   '@vercel/edge-config':
-    specifier: ^0.1.8
-    version: 0.1.8
+    specifier: ^0.2.1
+    version: 0.2.1
   '@vercel/og':
     specifier: ^0.5.3
     version: 0.5.3
@@ -1227,9 +1227,15 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@vercel/edge-config@0.1.8:
-    resolution: {integrity: sha512-yjGpvKqummKdh4595VHU6QaFoKRYCsHLgw0QpdWa9rvOILKn8mzhbyLWJMXF5At95UPiy4w23S0Tir8PXf7KNg==}
+  /@vercel/edge-config-fs@0.1.0:
+    resolution: {integrity: sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg==}
+    dev: false
+
+  /@vercel/edge-config@0.2.1:
+    resolution: {integrity: sha512-847kYqJEbga4PGgNrctQ9XsD+2Kw/S+UjzZnIFpebQ9VbdtB0MX4anq33WetcYZYPfhZd2L0uXVnY/BcjI5dOw==}
     engines: {node: '>=14.6'}
+    dependencies:
+      '@vercel/edge-config-fs': 0.1.0
     dev: false
 
   /@vercel/og@0.5.3:
