@@ -15,7 +15,7 @@
     "@vercel/og": "^0.5.3",
     "clsx": "^1.2.1",
     "contentlayer": "^0.3.2",
-    "date-fns": "^2.29.3",
+    "date-fns": "^2.30.0",
     "dotenv": "^16.0.3",
     "framer-motion": "^10.12.4",
     "kysely": "^0.25.0",
