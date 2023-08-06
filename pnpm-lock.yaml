@@ -1,9 +1,13 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@next/font':
-    specifier: 13.4.6
-    version: 13.4.6
+    specifier: 13.4.12
+    version: 13.4.12
   '@octokit/rest':
     specifier: ^20.0.1
     version: 20.0.1
@@ -631,8 +635,8 @@ packages:
     resolution: {integrity: sha512-ZlbiFulnwiFsW9UV1ku1OvX/oyIPLtMk9p/nnvDSwI0s7vSoZdRtxXNsaO+ZXrLv/pMbXVGq4lL8TbY9iuGmVw==}
     dev: false
 
-  /@next/font@13.4.6:
-    resolution: {integrity: sha512-Pjm6B6f4KWr4kWe7yu2trLtwQPco/wLSOzWeD7bW17Sd209ibrhRwbSggvlAt1FJu8K4ag2xtVg8WfRFbON1mw==}
+  /@next/font@13.4.12:
+    resolution: {integrity: sha512-w/ygNFuscvvFKFTMoIqhU8Kaq1wM6x4XEu9bwzJaj8G7aloH866TUPeCgiKf+M/ACpMKfRahQa06REcg6T3CyA==}
     dev: false
 
   /@next/swc-darwin-arm64@13.4.7:
@@ -3906,7 +3910,3 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
