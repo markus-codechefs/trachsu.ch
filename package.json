@@ -10,7 +10,7 @@
     "@next/font": "13.4.13",
     "@octokit/rest": "^20.0.1",
     "@planetscale/database": "^1.10.0",
-    "@vercel/analytics": "^1.0.1",
+    "@vercel/analytics": "^1.0.2",
     "@vercel/edge-config": "^0.2.1",
     "@vercel/og": "^0.5.10",
     "clsx": "^2.0.0",
