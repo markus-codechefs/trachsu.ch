@@ -5,9 +5,14 @@ export default function footer() {
         <hr></hr>
         <div className="w-full mx-auto max-w-screen-xl py-4 md:flex md:items-center md:justify-between">
           <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-            <li>
+            <li className="px-1">
               <a href="impressum" className="hover:underline">
                 Imprint
+              </a>
+            </li>
+            <li className="px-1">
+              <a href="dataprotection" className="hover:underline">
+                Dataprotection
               </a>
             </li>
           </ul>
