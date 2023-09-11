@@ -1,5 +1,3 @@
-import { dataprotection } from "lib/dataprotection";
-
 export default function DataprotectionPage() {
   return (
     <section>
