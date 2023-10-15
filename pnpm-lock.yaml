@@ -21,8 +21,8 @@ dependencies:
     specifier: ^0.4.1
     version: 0.4.1
   '@vercel/og':
-    specifier: ^0.5.13
-    version: 0.5.13
+    specifier: ^0.5.18
+    version: 0.5.18
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -1250,12 +1250,12 @@ packages:
       '@vercel/edge-config-fs': 0.1.0
     dev: false
 
-  /@vercel/og@0.5.13:
-    resolution: {integrity: sha512-okWQ2Jt+155Hn518Y8Tt4Iqb7QdNFoPvH/n4sMpC4K4bcijjo2RAEwXwlhTYHAAkoiJ0AEEeWeknZj1aBgOOqw==}
+  /@vercel/og@0.5.18:
+    resolution: {integrity: sha512-l519y6hscj14VkORBKshExoWaXWB4MqGUCIhY3gcXYir4aJ3J+9BU1E/CQ9yKsNmkgY+1VXOgjnq9zUT4B49KQ==}
     engines: {node: '>=16'}
     dependencies:
       '@resvg/resvg-wasm': 2.4.1
-      satori: 0.10.4
+      satori: 0.10.9
       yoga-wasm-web: 0.3.3
     dev: false
 
@@ -3437,8 +3437,8 @@ packages:
       mri: 1.2.0
     dev: false
 
-  /satori@0.10.4:
-    resolution: {integrity: sha512-GJNIsuiXhiC9kWGLvz04Op5DZy2UFYZAWsuUtkTlQt3r15o0K96PeD+FMfGN4luMPUHc4uV9gXqAoPxOK0omSw==}
+  /satori@0.10.9:
+    resolution: {integrity: sha512-XU9EELUEZuioT4acLIpCXxHcFzrsC8muvg0MY28d+TlqwxbkTzBmWbw+3+hnCzXT7YZ0Qm8k3eXktDaEu+qmEw==}
     engines: {node: '>=16'}
     dependencies:
       '@shuding/opentype.js': 1.4.0-beta.0
