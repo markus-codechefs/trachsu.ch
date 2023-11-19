@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@next/font':
-    specifier: 13.5.4
-    version: 13.5.4
+    specifier: 14.0.3
+    version: 14.0.3(next@13.5.3)
   '@octokit/rest':
     specifier: ^20.0.2
     version: 20.0.2
@@ -636,8 +636,12 @@ packages:
     resolution: {integrity: sha512-X4te86vsbjsB7iO4usY9jLPtZ827Mbx+WcwNBGUOIuswuTAKQtzsuoxc/6KLxCMvogKG795MhrR1LDhYgDvasg==}
     dev: false
 
-  /@next/font@13.5.4:
-    resolution: {integrity: sha512-rOMki1/9BP9N93RZABiiF0EidMGgyCvNVSKvLLAnMkVh/IYk4Z827+NRuxCyRQCeT3vv/AeCiP5SFPAP10SPrQ==}
+  /@next/font@14.0.3(next@13.5.3):
+    resolution: {integrity: sha512-M96skA6j99ri/J9+BpoDOoO9ntadHUyX2CmwSzsLDm3fL3hgyPfskH6Kd92sz6H8cr7ZHV3xNkCTggFvnLdq2Q==}
+    peerDependencies:
+      next: '*'
+    dependencies:
+      next: 13.5.3(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
   /@next/swc-darwin-arm64@13.5.3:
