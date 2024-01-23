@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@next/font':
-    specifier: 14.0.3
-    version: 14.0.3(next@13.5.3)
+    specifier: 14.1.0
+    version: 14.1.0(next@13.5.3)
   '@octokit/rest':
     specifier: ^20.0.2
     version: 20.0.2
@@ -636,8 +636,8 @@ packages:
     resolution: {integrity: sha512-X4te86vsbjsB7iO4usY9jLPtZ827Mbx+WcwNBGUOIuswuTAKQtzsuoxc/6KLxCMvogKG795MhrR1LDhYgDvasg==}
     dev: false
 
-  /@next/font@14.0.3(next@13.5.3):
-    resolution: {integrity: sha512-M96skA6j99ri/J9+BpoDOoO9ntadHUyX2CmwSzsLDm3fL3hgyPfskH6Kd92sz6H8cr7ZHV3xNkCTggFvnLdq2Q==}
+  /@next/font@14.1.0(next@13.5.3):
+    resolution: {integrity: sha512-9hJ7bEYDI7UGQ1a++5zRD3F2VUu9NIaK5Hro/uL9bvFFs6b0Cy1OdLtLQHCIQE7sSMt8Rbu4VtcbnlubsseelA==}
     peerDependencies:
       next: '*'
     dependencies:
