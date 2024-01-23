@@ -39,11 +39,11 @@ dependencies:
     specifier: ^10.16.16
     version: 10.16.16(react-dom@18.2.0)(react@18.2.0)
   kysely:
-    specifier: ^0.26.3
-    version: 0.26.3
+    specifier: ^0.27.2
+    version: 0.27.2
   kysely-planetscale:
     specifier: ^1.4.0
-    version: 1.4.0(@planetscale/database@1.13.0)(kysely@0.26.3)
+    version: 1.4.0(@planetscale/database@1.13.0)(kysely@0.27.2)
   next:
     specifier: 13.5.3
     version: 13.5.3(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
@@ -2274,7 +2274,7 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /kysely-planetscale@1.4.0(@planetscale/database@1.13.0)(kysely@0.26.3):
+  /kysely-planetscale@1.4.0(@planetscale/database@1.13.0)(kysely@0.27.2):
     resolution: {integrity: sha512-dM2xgOM50+IiOIrSCEn/6lgXcE7J752oNpV6NcIYNgG/AfYGMtWm2ZK7PyeIPy5JG1jZvQvqwTFbGK4HGH/hJw==}
     peerDependencies:
       '@planetscale/database': '*'
@@ -2282,11 +2282,11 @@ packages:
     dependencies:
       '@planetscale/database': 1.13.0
       date-fns: 2.30.0
-      kysely: 0.26.3
+      kysely: 0.27.2
     dev: false
 
-  /kysely@0.26.3:
-    resolution: {integrity: sha512-yWSgGi9bY13b/W06DD2OCDDHQmq1kwTGYlQ4wpZkMOJqMGCstVCFIvxCCVG4KfY1/3G0MhDAcZsip/Lw8/vJWw==}
+  /kysely@0.27.2:
+    resolution: {integrity: sha512-DmRvEfiR/NLpgsTbSxma2ldekhsdcd65+MNiKXyd/qj7w7X5e3cLkXxcj+MypsRDjPhHQ/CD5u3Eq1sBYzX0bw==}
     engines: {node: '>=14.0.0'}
     dev: false
 
