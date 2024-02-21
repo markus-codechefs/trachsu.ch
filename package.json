@@ -9,7 +9,7 @@
   "dependencies": {
     "@next/font": "14.1.0",
     "@octokit/rest": "^20.0.2",
-    "@planetscale/database": "^1.14.0",
+    "@planetscale/database": "^1.16.0",
     "@vercel/analytics": "^1.1.2",
     "@vercel/edge-config": "^0.4.1",
     "@vercel/og": "^0.6.2",
