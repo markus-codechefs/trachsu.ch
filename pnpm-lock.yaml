@@ -12,8 +12,8 @@ dependencies:
     specifier: ^20.0.2
     version: 20.0.2
   '@planetscale/database':
-    specifier: ^1.14.0
-    version: 1.14.0
+    specifier: ^1.16.0
+    version: 1.16.0
   '@vercel/analytics':
     specifier: ^1.1.2
     version: 1.1.2
@@ -43,7 +43,7 @@ dependencies:
     version: 0.27.2
   kysely-planetscale:
     specifier: ^1.4.0
-    version: 1.4.0(@planetscale/database@1.14.0)(kysely@0.27.2)
+    version: 1.4.0(@planetscale/database@1.16.0)(kysely@0.27.2)
   next:
     specifier: 13.5.3
     version: 13.5.3(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1068,8 +1068,8 @@ packages:
     resolution: {integrity: sha512-dhPeilub1NuIG0X5Kvhh9lH4iW3ZsHlnzwgwbOlgwQ2wG1IqFzsgHqmKPk3WzsdWAeaxKJxgM0+W433RmN45GA==}
     dev: false
 
-  /@planetscale/database@1.14.0:
-    resolution: {integrity: sha512-7BB+iH6EH4YJuDeVeEbxpo60BFz3wIXJNXCmBGl40eC4HStRMGZ1COxKfiuPcINWwwrJhAhI9AEI97AOZYT7JQ==}
+  /@planetscale/database@1.16.0:
+    resolution: {integrity: sha512-HNUrTqrd8aTRZYMDcsoZ62s36sIWkMMmKZBOehoCWR2WrfNPKq+Q1yQef5okl3pSVlldFnu2h/dbHjOsDTHXug==}
     engines: {node: '>=16'}
     dev: false
 
@@ -2266,13 +2266,13 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /kysely-planetscale@1.4.0(@planetscale/database@1.14.0)(kysely@0.27.2):
+  /kysely-planetscale@1.4.0(@planetscale/database@1.16.0)(kysely@0.27.2):
     resolution: {integrity: sha512-dM2xgOM50+IiOIrSCEn/6lgXcE7J752oNpV6NcIYNgG/AfYGMtWm2ZK7PyeIPy5JG1jZvQvqwTFbGK4HGH/hJw==}
     peerDependencies:
       '@planetscale/database': '*'
       kysely: '*'
     dependencies:
-      '@planetscale/database': 1.14.0
+      '@planetscale/database': 1.16.0
       date-fns: 2.30.0
       kysely: 0.27.2
     dev: false
