@@ -7,7 +7,7 @@
     "test": "next build && next start"
   },
   "dependencies": {
-    "@next/font": "14.1.0",
+    "@next/font": "14.2.3",
     "@octokit/rest": "^20.1.0",
     "@planetscale/database": "^1.16.0",
     "@vercel/analytics": "^1.2.2",
