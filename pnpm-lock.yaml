@@ -30,8 +30,8 @@ dependencies:
     specifier: ^0.3.4
     version: 0.3.4(esbuild@0.18.17)
   date-fns:
-    specifier: ^3.3.1
-    version: 3.3.1
+    specifier: ^3.6.0
+    version: 3.6.0
   dotenv:
     specifier: ^16.4.5
     version: 16.4.5
@@ -1595,8 +1595,8 @@ packages:
       '@babel/runtime': 7.22.6
     dev: false
 
-  /date-fns@3.3.1:
-    resolution: {integrity: sha512-y8e109LYGgoQDveiEBD3DYXKba1jWf5BA8YU1FL5Tvm0BTdEfy54WLCwnuYWZNnzzvALy/QQ4Hov+Q9RVRv+Zw==}
+  /date-fns@3.6.0:
+    resolution: {integrity: sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==}
     dev: false
 
   /debug@4.3.4:
