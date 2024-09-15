@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@next/font':
-        specifier: 14.2.5
-        version: 14.2.5(next@14.2.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1))
+        specifier: 14.2.11
+        version: 14.2.11(next@14.2.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1))
       '@octokit/rest':
         specifier: ^20.1.1
         version: 20.1.1
@@ -370,8 +370,8 @@ packages:
   '@next/env@14.2.4':
     resolution: {integrity: sha512-3EtkY5VDkuV2+lNmKlbkibIJxcO4oIHEhBWne6PaAp+76J9KoSsGvNikp6ivzAT8dhhBMYrm6op2pS1ApG0Hzg==}
 
-  '@next/font@14.2.5':
-    resolution: {integrity: sha512-e2f3M+tAuJPUyXwWtEPKlPfpPEKODiQvPjdxOWBZC+zgdGv18KfjTkEmopfkfpZ016yCvw5BmMPeuEU/uiDf9g==}
+  '@next/font@14.2.11':
+    resolution: {integrity: sha512-ektZosXenaRWvc3ZoM7NibTJSN5gQJyCCNG6HYNFTZcxDMgmFALY/6XPsHiCmZZtwL9L9U3HY/96u9x/+KpjUw==}
     peerDependencies:
       next: '*'
 
@@ -2504,7 +2504,7 @@ snapshots:
 
   '@next/env@14.2.4': {}
 
-  '@next/font@14.2.5(next@14.2.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1))':
+  '@next/font@14.2.11(next@14.2.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1))':
     dependencies:
       next: 14.2.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
 
