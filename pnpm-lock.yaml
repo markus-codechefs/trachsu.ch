@@ -325,12 +325,12 @@ packages:
   '@fal-works/esbuild-plugin-global-externals@2.1.2':
     resolution: {integrity: sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==}
 
-  '@grpc/grpc-js@1.9.0':
-    resolution: {integrity: sha512-H8+iZh+kCE6VR/Krj6W28Y/ZlxoZ1fOzsNt77nrdE3knkbSelW1Uus192xOFCxHyeszLj8i4APQkSIXjAoOxXg==}
-    engines: {node: ^8.13.0 || >=10.10.0}
+  '@grpc/grpc-js@1.12.2':
+    resolution: {integrity: sha512-bgxdZmgTrJZX50OjyVwz3+mNEnCTNkh3cIqGPWVNeW9jX6bn1ZkU80uPd+67/ZpIJIjRQ9qaHCjhavyoWYxumg==}
+    engines: {node: '>=12.10.0'}
 
-  '@grpc/proto-loader@0.7.8':
-    resolution: {integrity: sha512-GU12e2c8dmdXb7XUlOgYWZ2o2i+z9/VeACkxTA/zzAe2IjclC5PnVL0lpgjhrqfpDYHzM8B1TF6pqWegMYAzlA==}
+  '@grpc/proto-loader@0.7.13':
+    resolution: {integrity: sha512-AiXO/bfe9bmxBjxxtYxFAXGZvMaN5s8kO+jBHAJCON8rJoB5YS/D6X7ZNc6XQkuHNmyl4CYaMI1fJ/Gn27RGGw==}
     engines: {node: '>=6'}
     hasBin: true
 
@@ -354,6 +354,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.18':
     resolution: {integrity: sha512-w+niJYzMHdd7USdiH2U6869nqhD2nbfZXND5Yp93qIbEmnDNk7PD48o+YchRVpzMU7M6jVCbenTR7PA1FLQ9pA==}
+
+  '@js-sdsl/ordered-map@4.4.2':
+    resolution: {integrity: sha512-iUKgm52T8HOE/makSxjqoWhe95ZJA1/G1sYsGev2JDKUSS14KAgg1LHb+Ba+IPow0xflbnSkOsZcO08C7w1gYw==}
 
   '@js-temporal/polyfill@0.4.4':
     resolution: {integrity: sha512-2X6bvghJ/JAoZO52lbgyAPFj8uCflhTo2g7nkFzEQdXd/D8rEeD4HtmTEpmtGCva260fcd66YNXBOYdnmHqSOg==}
@@ -705,9 +708,6 @@ packages:
   '@types/hast@3.0.4':
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
 
-  '@types/long@4.0.2':
-    resolution: {integrity: sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==}
-
   '@types/mdast@3.0.12':
     resolution: {integrity: sha512-DT+iNIRNX884cx0/Q1ja7NyUPpZuv0KPyL5rGNxm1WC1OtHstl7n4Jb7nk+xacNShQMbczJjt8uFzznpp6kYBg==}
 
@@ -1019,10 +1019,6 @@ packages:
     resolution: {integrity: sha512-1GJtYnUxsJreHYA0Y+iQz2UEykonY66HNWOb0yXYZi9/kNrORUEHVg87eQsCtqh59PEJ5YVZJO98JHznMJSWjg==}
     engines: {node: '>=12'}
     hasBin: true
-
-  escalade@3.1.1:
-    resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
-    engines: {node: '>=6'}
 
   escalade@3.1.2:
     resolution: {integrity: sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==}
@@ -1366,9 +1362,6 @@ packages:
 
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
-
-  long@4.0.0:
-    resolution: {integrity: sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==}
 
   long@5.2.3:
     resolution: {integrity: sha512-lcHwpNoggQTObv5apGNCTdJrO69eHOZMi4BNC+rTLER8iHAqGrUVeLh/irVIM7zTw2bOXA8T6uNPeujwOLg/2Q==}
@@ -2474,16 +2467,15 @@ snapshots:
 
   '@fal-works/esbuild-plugin-global-externals@2.1.2': {}
 
-  '@grpc/grpc-js@1.9.0':
+  '@grpc/grpc-js@1.12.2':
     dependencies:
-      '@grpc/proto-loader': 0.7.8
-      '@types/node': 20.14.2
+      '@grpc/proto-loader': 0.7.13
+      '@js-sdsl/ordered-map': 4.4.2
 
-  '@grpc/proto-loader@0.7.8':
+  '@grpc/proto-loader@0.7.13':
     dependencies:
-      '@types/long': 4.0.2
       lodash.camelcase: 4.3.0
-      long: 4.0.0
+      long: 5.2.3
       protobufjs: 7.2.6
       yargs: 17.7.2
 
@@ -2505,6 +2497,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
+
+  '@js-sdsl/ordered-map@4.4.2': {}
 
   '@js-temporal/polyfill@0.4.4':
     dependencies:
@@ -2678,7 +2672,7 @@ snapshots:
 
   '@opentelemetry/exporter-trace-otlp-grpc@0.39.1(@opentelemetry/api@1.4.1)':
     dependencies:
-      '@grpc/grpc-js': 1.9.0
+      '@grpc/grpc-js': 1.12.2
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/core': 1.13.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/otlp-grpc-exporter-base': 0.39.1(@opentelemetry/api@1.4.1)
@@ -2693,7 +2687,7 @@ snapshots:
 
   '@opentelemetry/otlp-grpc-exporter-base@0.39.1(@opentelemetry/api@1.4.1)':
     dependencies:
-      '@grpc/grpc-js': 1.9.0
+      '@grpc/grpc-js': 1.12.2
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/core': 1.13.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/otlp-exporter-base': 0.39.1(@opentelemetry/api@1.4.1)
@@ -2874,8 +2868,6 @@ snapshots:
   '@types/hast@3.0.4':
     dependencies:
       '@types/unist': 3.0.0
-
-  '@types/long@4.0.2': {}
 
   '@types/mdast@3.0.12':
     dependencies:
@@ -3171,8 +3163,6 @@ snapshots:
       '@esbuild/win32-arm64': 0.18.17
       '@esbuild/win32-ia32': 0.18.17
       '@esbuild/win32-x64': 0.18.17
-
-  escalade@3.1.1: {}
 
   escalade@3.1.2: {}
 
@@ -3560,8 +3550,6 @@ snapshots:
   lodash.isplainobject@4.0.6: {}
 
   lodash.merge@4.6.2: {}
-
-  long@4.0.0: {}
 
   long@5.2.3: {}
 
@@ -4960,7 +4948,7 @@ snapshots:
   yargs@17.7.2:
     dependencies:
       cliui: 8.0.1
-      escalade: 3.1.1
+      escalade: 3.1.2
       get-caller-file: 2.0.5
       require-directory: 2.1.1
       string-width: 4.2.3
