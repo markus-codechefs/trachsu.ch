@@ -51,8 +51,8 @@ importers:
         specifier: 14.2.15
         version: 14.2.15(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       next-auth:
-        specifier: ^4.24.7
-        version: 4.24.7(next@14.2.15(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
+        specifier: ^4.24.11
+        version: 4.24.11(next@14.2.15(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       next-contentlayer:
         specifier: ^0.3.4
         version: 0.3.4(contentlayer@0.3.4(esbuild@0.18.17))(esbuild@0.18.17)(next@14.2.15(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
@@ -944,8 +944,8 @@ packages:
     engines: {node: '>=14.18'}
     hasBin: true
 
-  cookie@0.5.0:
-    resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
+  cookie@0.7.2:
+    resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
     engines: {node: '>= 0.6'}
 
   core-util-is@1.0.3:
@@ -1698,14 +1698,17 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  next-auth@4.24.7:
-    resolution: {integrity: sha512-iChjE8ov/1K/z98gdKbn2Jw+2vLgJtVV39X+rCP5SGnVQuco7QOr19FRNGMIrD8d3LYhHWV9j9sKLzq1aDWWQQ==}
+  next-auth@4.24.11:
+    resolution: {integrity: sha512-pCFXzIDQX7xmHFs4KVH4luCjaCbuPRtZ9oBUjUhOk84mZ9WVPf94n87TxYI4rSRf9HmfHEF8Yep3JrYDVOo3Cw==}
     peerDependencies:
-      next: ^12.2.5 || ^13 || ^14
+      '@auth/core': 0.34.2
+      next: ^12.2.5 || ^13 || ^14 || ^15
       nodemailer: ^6.6.5
-      react: ^17.0.2 || ^18
-      react-dom: ^17.0.2 || ^18
+      react: ^17.0.2 || ^18 || ^19
+      react-dom: ^17.0.2 || ^18 || ^19
     peerDependenciesMeta:
+      '@auth/core':
+        optional: true
       nodemailer:
         optional: true
 
@@ -3184,7 +3187,7 @@ snapshots:
       - markdown-wasm
       - supports-color
 
-  cookie@0.5.0: {}
+  cookie@0.7.2: {}
 
   core-util-is@1.0.3: {}
 
@@ -4364,11 +4367,11 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  next-auth@4.24.7(next@14.2.15(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
+  next-auth@4.24.11(next@14.2.15(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.22.6
       '@panva/hkdf': 1.1.1
-      cookie: 0.5.0
+      cookie: 0.7.2
       jose: 4.15.5
       next: 14.2.15(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       oauth: 0.9.15
