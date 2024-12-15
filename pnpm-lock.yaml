@@ -39,8 +39,8 @@ importers:
         specifier: ^16.4.5
         version: 16.4.5
       framer-motion:
-        specifier: ^11.3.28
-        version: 11.3.28(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
+        specifier: ^11.14.4
+        version: 11.14.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       kysely:
         specifier: ^0.27.4
         version: 0.27.4
@@ -1138,12 +1138,12 @@ packages:
   fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
 
-  framer-motion@11.3.28:
-    resolution: {integrity: sha512-dqhoawipEAjqdv32zbv72sOMJZjol7dROWn7t/FOq23WXJ40O4OUybgnO2ldnuS+3YquSn8xO/KKRavZ+TBVOQ==}
+  framer-motion@11.14.4:
+    resolution: {integrity: sha512-NQuzr9JbeJDMQmy0FFLhLzk9h1kAjVC1tGE/HY4ubF02B95EBm2lpA21LE3Od/OpXqXgp0zl5Hdqu25hliBRsA==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
-      react: ^18.0.0
-      react-dom: ^18.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
     peerDependenciesMeta:
       '@emotion/is-prop-valid':
         optional: true
@@ -1685,6 +1685,12 @@ packages:
   minipass@7.1.2:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
+
+  motion-dom@11.14.3:
+    resolution: {integrity: sha512-lW+D2wBy5vxLJi6aCP0xyxTxlTfiu+b+zcpVbGVFUxotwThqhdpPRSmX8xztAgtZMPMeU0WGVn/k1w4I+TbPqA==}
+
+  motion-utils@11.14.3:
+    resolution: {integrity: sha512-Xg+8xnqIJTpr0L/cidfTTBFkvRw26ZtGGuIhA94J9PQ2p4mEa06Xx7QVYZH0BP+EpMSaDlu+q0I0mmvwADPsaQ==}
 
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
@@ -3386,8 +3392,10 @@ snapshots:
 
   fraction.js@4.3.7: {}
 
-  framer-motion@11.3.28(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
+  framer-motion@11.14.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
     dependencies:
+      motion-dom: 11.14.3
+      motion-utils: 11.14.3
       tslib: 2.6.1
     optionalDependencies:
       react: 18.3.1
@@ -4365,6 +4373,10 @@ snapshots:
       brace-expansion: 2.0.1
 
   minipass@7.1.2: {}
+
+  motion-dom@11.14.3: {}
+
+  motion-utils@11.14.3: {}
 
   mri@1.2.0: {}
 
