@@ -91,8 +91,8 @@ importers:
         specifier: ^0.5.16
         version: 0.5.16(tailwindcss@3.4.16)
       '@types/node':
-        specifier: 22.10.5
-        version: 22.10.5
+        specifier: 22.13.11
+        version: 22.13.11
       '@types/react':
         specifier: 18.3.12
         version: 18.3.12
@@ -728,8 +728,8 @@ packages:
   '@types/ms@0.7.31':
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
 
-  '@types/node@22.10.5':
-    resolution: {integrity: sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==}
+  '@types/node@22.13.11':
+    resolution: {integrity: sha512-iEUCUJoU0i3VnrCmgoWCXttklWcvoCIx4jzcP22fioIVSdTmjgoEvmAO/QPw6TcS9k5FrNgn4w7q5lGOd1CT5g==}
 
   '@types/parse5@6.0.3':
     resolution: {integrity: sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==}
@@ -2984,7 +2984,7 @@ snapshots:
 
   '@types/ms@0.7.31': {}
 
-  '@types/node@22.10.5':
+  '@types/node@22.13.11':
     dependencies:
       undici-types: 6.20.0
 
@@ -4617,7 +4617,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.10.5
+      '@types/node': 22.13.11
       long: 5.2.3
 
   queue-microtask@1.2.3: {}
