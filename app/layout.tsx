@@ -1,7 +1,7 @@
 import './global.css';
 import clsx from 'clsx';
 import type { Metadata } from 'next';
-import localFont from '@next/font/local';
+import localFont from 'next/font/local';
 import Sidebar from '../components/sidebar';
 import Footer from '../components/footer';
 import AnalyticsWrapper from '../components/analytics';
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Markus Trachsel - Software Architect & DevOps Engineer',
-    description: 'Software architect and DevOps engineer with 16 years of experience in .NET, AWS, Azure, and process improvement. Specializing in increasing deployment frequency and optimizing software delivery pipelines.',
+    description: 'Software architect and DevOps engineer with 14+ years of experience in .NET, AWS, Azure, and process improvement. Specializing in increasing deployment frequency and optimizing software delivery pipelines.',
     url: 'https://trachsu.ch',
     siteName: 'Markus Trachsel',
     locale: 'en-US',
