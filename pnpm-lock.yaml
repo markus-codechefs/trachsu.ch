@@ -1759,7 +1759,6 @@ snapshots:
   nanoid@3.3.11: {}
 
   next-auth@4.24.12(next@15.4.8(@opentelemetry/api@1.4.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
-
     dependencies:
       '@babel/runtime': 7.28.4
       '@panva/hkdf': 1.2.1
