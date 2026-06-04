@@ -1,4 +1,4 @@
-import {
+﻿import {
   GitHubIcon,
   InstaIcon,
   ArrowIcon,
@@ -178,7 +178,7 @@ export default function AboutPage() {
         >
           <div className="flex items-center">
             <TwitterIcon />
-            <div className="ml-3">Twitter</div>
+            <div className="ml-3">X</div>
           </div>
           <ArrowIcon />
         </a>
