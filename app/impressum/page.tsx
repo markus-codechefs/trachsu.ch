@@ -1,16 +1,8 @@
-import {imprint, credits} from "lib/info";
+﻿import { ImpressumPageContent } from 'components/localized-pages';
+import { getLocalizedMetadata } from 'lib/metadata';
+
+export const metadata = getLocalizedMetadata('de', '/impressum');
 
 export default function ImpressumPage() {
-  return (
-    <section>      
-      <h1 className="font-bold text-3xl font-serif">Imprint</h1>
-      <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
-        {imprint()}
-      </p>    
-      <h2 className="font-bold text-3xl font-serif">Credits</h2>
-      <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
-        {credits()}
-      </p>       
-    </section>    
-  );
+  return <ImpressumPageContent locale="de" />;
 }
