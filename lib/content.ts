@@ -1,6 +1,6 @@
-﻿import me from '../app/profile.jpg';
-import deContent from '../content/de.json';
-import enContent from '../content/en.json';
+﻿import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import me from '../app/profile.jpg';
 import type { Locale } from './i18n';
 
 type Service = {
@@ -119,7 +119,14 @@ function withSharedContent(localeContent: LocaleContent): SiteContent {
   };
 }
 
+function readLocaleContent(locale: Locale): LocaleContent {
+  const filePath = join(process.cwd(), 'content', `${locale}.json`);
+  const fileContent = readFileSync(filePath, 'utf8').replace(/^\uFEFF/, '');
+
+  return JSON.parse(fileContent) as LocaleContent;
+}
+
 export const content = {
-  de: withSharedContent(deContent),
-  en: withSharedContent(enContent),
+  de: withSharedContent(readLocaleContent('de')),
+  en: withSharedContent(readLocaleContent('en')),
 } satisfies Record<Locale, SiteContent>;
