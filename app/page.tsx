@@ -1,28 +1,14 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
-import { getStarCount } from "lib/metrics";
 import {  
   GitHubIcon,
   TwitterIcon,
   MailIcon,
   LinkedinIcon,
-  ArrowIcon,
 } from "components/icons";
 import { name, about, bio, avatar, meat } from "lib/info";
 
-export const revalidate = 60;
-
-export default async function HomePage() {
-  let starCount: number | null = null;
-  let starCountError = false;
-
-  try {
-    starCount = await getStarCount();
-  } catch (error) {
-    console.error('Failed to fetch star count:', error);
-    starCountError = true;
-  }
-
+export default function HomePage() {
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif">{name}</h1>
@@ -120,10 +106,7 @@ export default async function HomePage() {
             className="flex items-center gap-2 hover:text-neutral-800 dark:hover:text-neutral-200 transition-colors"
           >
             <GitHubIcon />
-            {starCountError 
-              ? 'view my github' 
-              : `${starCount?.toLocaleString() || '...'} stars on this repo`
-            }
+            {`view my github`}
           </a>          
           <a
             rel="noopener noreferrer"

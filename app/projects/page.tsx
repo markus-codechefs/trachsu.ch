@@ -1,4 +1,4 @@
-import project from "../../components/project";
+﻿import project from "../../components/project";
 
 export default function ProjectsPage() {
   return (
@@ -15,7 +15,7 @@ export default function ProjectsPage() {
           {project(
             "trachsu.ch",
             "My landing page, which gave me ample opportunity to dive into the world of react, nextjs and vercel.",
-            ["react", "next.js", "type script", "vercel", "planetscale db"]
+            ["react", "next.js", "type script", "vercel"]
           )}
       </div>
       <div className="grid grid-cols-2 gap-4 my-4">        
