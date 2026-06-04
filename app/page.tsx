@@ -115,7 +115,7 @@ export default function HomePage() {
             className="flex items-center gap-2 hover:text-neutral-800 dark:hover:text-neutral-200 transition-colors"
           >
             <TwitterIcon />
-            {`follow me on twitter`}
+            {`follow me on X`}
           </a>          
         </div>
       </div>
