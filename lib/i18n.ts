@@ -95,5 +95,7 @@ export function getBasePath(pathname: string): RoutePath {
 }
 
 export function getLocalizedPath(locale: Locale, path: RoutePath) {
-  return locale === 'en' ? `/en${path === '/' ? '' : path}` : path;
+  const localizedPath = path === '/' ? '' : path;
+
+  return locale === 'en' ? `/en${localizedPath}` : path;
 }
