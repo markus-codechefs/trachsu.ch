@@ -1,0 +1,209 @@
+﻿{
+  "metadata": {
+    "title": "Markus Trachsel - Softwarearchitekt & DevOps Engineer",
+    "description": "Softwarearchitekt und DevOps Engineer mit über 14 Jahren Erfahrung in .NET, AWS, Azure und Prozessverbesserung."
+  },
+  "home": {
+    "intro": "Als Full-Stack Engineer unterstütze ich agile Softwareteams mit DevOps-Prinzipien, kleinen Änderungen und häufigen Deployments. Menschen stehen für mich vor Technologie.",
+    "ctaTitle": "Bereit, Ihre Softwareauslieferung zu verbessern?",
+    "ctaText": "Lassen Sie uns besprechen, wie ich Ihre DevOps-Prozesse optimieren, die Deployment-Frequenz erhöhen oder Ihre nächste Cloud-Lösung gestalten kann.",
+    "ctaButton": "Kontakt aufnehmen",
+    "servicesTitle": "Leistungen",
+    "services": [
+      {
+        "title": "DevOps & Prozessverbesserung",
+        "items": [
+          "CI/CD-Pipelines optimieren",
+          "Deployment-Frequenz erhöhen",
+          "DORA-Metriken einführen",
+          "Teamproduktivität verbessern"
+        ]
+      },
+      {
+        "title": "Softwareentwicklung",
+        "items": [
+          ".NET-Core-Anwendungen entwickeln",
+          "React- & TypeScript-Frontends",
+          "APIs entwickeln und integrieren",
+          "Cloud-native Architektur"
+        ]
+      },
+      {
+        "title": "Cloud-Architektur",
+        "items": [
+          "AWS- & Azure-Expertise",
+          "Multi-Cloud-Strategien",
+          "Serverless-Architektur",
+          "Infrastructure as Code"
+        ]
+      },
+      {
+        "title": "Beratung & Strategie",
+        "items": [
+          "Technische Architektur prüfen",
+          "Technologie-Stacks bewerten",
+          "Teamstrukturen optimieren",
+          "Digitale Transformation begleiten"
+        ]
+      }
+    ],
+    "links": {
+      "linkedin": "Kontakt über LinkedIn",
+      "email": "Kontakt aufnehmen",
+      "github": "GitHub ansehen",
+      "twitter": "Auf X folgen"
+    },
+    "bio": "Neben der Arbeit verbringe ich Zeit mit meiner Familie, spiele gerne Basketball und lebe meine kulinarische Kreativität in der Küche aus.",
+    "meat": "Für gutes Essen braucht es hochwertige Zutaten. Deshalb habe ich angefangen, Rindfleisch selbst zu Hause trocken zu reifen. Mehr dazu steht auf der Über-mich-Seite."
+  },
+  "about": {
+    "title": "Über mich",
+    "greeting": "Hallo, ich bin Markus Trachsel. Schön, Sie kennenzulernen!",
+    "paragraphs": [
+      "Als Softwarearchitekt und Full-Stack Engineer brenne ich dafür, agile Softwareteams mit DevOps-Prinzipien, kleinen Änderungspaketen und häufigen Deployments in Produktion zu stärken. Mein Ansatz stellt Menschen vor Technologie und anerkennt die wichtige Rolle, die Software bei der Unterstützung und Verbesserung von Organisationszielen spielt.",
+      "Meine Expertise umfasst Prozessautomatisierung, Integration und Pipelines. So helfe ich Kunden, Produktivität und Effizienz mit passender Technologie zu steigern."
+    ],
+    "skillsTitle": "Skills / Technologien",
+    "personalTitle": "Persönliches",
+    "personal": "Neben meiner Arbeit habe ich verschiedene Interessen und Hobbys. Ich spiele gerne Basketball, verbringe viel Zeit mit meiner Familie und koche mit Leidenschaft. Hochwertiges Essen ist für mich ein kreatives Feld, in dem ich gern mit neuen Rezepten und Zutaten experimentiere.",
+    "sideHustleTitle": "Nebenprojekt",
+    "dryAgingTitle": "Dry Aging Meat",
+    "dryAging": "Ich reife Schweizer Rindfleisch und Schweinerücken mit den Produkten von dry-ager.com sechs bis acht Wochen trocken. So entstehen hochwertige, saftige Steaks, über die man bei jedem Networking-Event noch lange spricht.",
+    "saucesTitle": "Saucen",
+    "sauces": [
+      "Aus Knochen und Abschnitten des Dry Agings kochen ein Kollege und ich eine intensive Jus (Glace de viande): im Grunde ein stark reduzierter Fond ohne Fett.",
+      "Ich bin ausserdem Mitgründer von Berns selbsternannter BBQ-Sauce \"Bär-BQ\". 2019 war sie sehr gefragt. Wir verkauften sie in einigen Metzgereien in Bern und in unserem eigenen Online-Shop www.bärfoods.ch, der inzwischen eingestellt ist."
+    ],
+    "linksTitle": "Links"
+  },
+  "projects": {
+    "title": "Projekte",
+    "items": [
+      {
+        "title": "CRM Dynamics 365 Customizer / Azure Software Engineer bei BKW",
+        "text": "Mein erster Freelancer-Vertrag. Ich arbeite mit einem Engineering-Team daran, die Verkaufs- und Supportprozesse von BKW über die CRM-Dynamics-365-Plattform zu unterstützen.",
+        "tags": [
+          "Microsoft Dynamics 365",
+          "Azure Cloud",
+          "C#",
+          ".NET Core",
+          ".NET Framework"
+        ]
+      },
+      {
+        "title": "trachsu.ch",
+        "text": "Meine Landingpage, die mir viel Gelegenheit gab, tiefer in React, Next.js und Vercel einzutauchen.",
+        "tags": [
+          "react",
+          "next.js",
+          "type script",
+          "vercel"
+        ]
+      },
+      {
+        "title": "Simpline Workflow System",
+        "text": "Ich entwickelte ein Webportal mit .NET Core, Orchard.net CMS, Bootstrap und MS-SQL. Es wurde auf Azure gehostet und mit Azure DevOps ausgeliefert.",
+        "tags": [
+          "C#",
+          ".NET Core",
+          "Bootstrap",
+          "ms-sql"
+        ]
+      },
+      {
+        "title": "Deployment-Frequenz bei immoscout24 erhöht",
+        "text": "Mit DORA-Metriken und modernen Praktiken wie CI/CD steigerten wir die Deployment-Frequenz in Produktion von 4-mal pro Monat auf 200!",
+        "tags": [
+          "Github",
+          "octopus deploy",
+          "bamboo",
+          "process"
+        ]
+      },
+      {
+        "title": "Automatisierte Personal-Debtcheck-API von Intrum Justitia AG für Meisterwerk GmbH",
+        "text": "Analyse, Design, Implementierung und Test der API sowie Integration und Automatisierung des Bestellprozesses beim Kunden.",
+        "tags": [
+          "Shopify API",
+          "C#",
+          ".NET Core",
+          "Rest API"
+        ]
+      },
+      {
+        "title": "Cloud-Projekt bei Post IT",
+        "text": "Analyse, Design, Implementierung und Test von App Service, Logic App, Functions und Lambdas. Ziel war der Vergleich von AWS- und Azure-Services für ein Workflow-System.",
+        "tags": [
+          "C#",
+          ".NET Core",
+          "Rest API",
+          "Angular",
+          "AWS",
+          "Azure Cloud"
+        ]
+      }
+    ]
+  },
+  "impressum": {
+    "title": "Impressum",
+    "creditsTitle": "Credits",
+    "representative": "Vertretungsberechtigte Person",
+    "credits": "Vielen Dank an Lee Robinson (leerob) für dieses grossartige Template!"
+  },
+  "dataprotection": {
+    "title": "Datenschutzerklärung",
+    "intro": [
+      "Vielen Dank für Ihren Besuch auf trachsu.ch und Ihr Interesse an unserem Angebot.",
+      "Der Schutz Ihrer Personendaten ist uns wichtig. Diese Datenschutzerklärung informiert darüber, welche Personendaten beim Besuch der Website bearbeitet werden. Unsere Datenschutzpraxis richtet sich nach dem Schweizer Datenschutzgesetz (DSG)."
+    ],
+    "sections": [
+      {
+        "title": "Inhaber",
+        "paragraphs": [
+          "Verantwortlich im Sinne von Art. 5 lit. j DSG ist Code Chefs GmbH, Sportweg 5, 3097 Liebefeld, Schweiz."
+        ]
+      },
+      {
+        "title": "Bereitstellung der Website und Logfiles",
+        "paragraphs": [
+          "Bei jedem Zugriff auf unsere Website werden automatisch technische Daten des verwendeten Geräts erfasst, etwa Browsertyp, Betriebssystem, Hostname, IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Inhalte, Referrer, Erfolgsstatus und übertragene Datenmenge.",
+          "Diese Daten werden in Logfiles gespeichert und nicht mit Personendaten bestimmter Nutzer zusammengeführt. Die temporäre Speicherung ist erforderlich, um die Website auszuliefern, Missbrauch zu bekämpfen, Störungen zu beheben und unsere IT-Systeme zu schützen.",
+          "Die technischen Daten werden gelöscht, sobald sie für die Kompatibilität und Sicherheit der Website nicht mehr erforderlich sind, spätestens jedoch nach drei Monaten."
+        ]
+      },
+      {
+        "title": "Weitergabe an Dritte",
+        "paragraphs": [
+          "Personendaten werden nach den Grundsätzen der Rechtmässigkeit und Treu und Glauben bearbeitet. Eine Weitergabe erfolgt nur, soweit dies für unsere Angebote notwendig ist oder gesetzliche Vorschriften, Gerichtsentscheide oder behördliche Anordnungen dies verlangen."
+        ]
+      },
+      {
+        "title": "Externe Webdienste",
+        "paragraphs": [
+          "Auf unserer Website können externe Webdienste eingebunden sein. Beim Aufruf der Website können diese Anbieter Informationen über Ihren Besuch erhalten. Sie können dies durch Browser-Einstellungen oder Plug-ins einschränken; dabei können Funktionen der Website beeinträchtigt werden.",
+          "Wir nutzen Inhalte von Legally ok GmbH, Schochenmühlestrasse 6, 6340 Baar, Schweiz. Die Bearbeitung erfolgt in der Schweiz. Weitere Informationen finden Sie unter https://www.legally-ok.com/datenschutz/."
+        ]
+      },
+      {
+        "title": "Datensicherheit und Kommunikation per E-Mail",
+        "paragraphs": [
+          "Ihre Personendaten werden durch technische und organisatorische Massnahmen geschützt. Bei unverschlüsselter Kommunikation per E-Mail können wir die vollständige Datensicherheit auf dem Übertragungsweg nicht garantieren."
+        ]
+      },
+      {
+        "title": "Speicherdauer und Rechte betroffener Personen",
+        "paragraphs": [
+          "Wir speichern Personendaten nur so lange, wie dies für die Zwecke der Bearbeitung erforderlich ist, ein überwiegendes berechtigtes Interesse besteht oder gesetzliche Pflichten dies verlangen.",
+          "Sie können Auskunft, Berichtigung, Löschung, Einschränkung und Datenherausgabe verlangen, soweit die gesetzlichen Voraussetzungen erfüllt sind. Sie können erteilte Einwilligungen jederzeit widerrufen.",
+          "Zur Ausübung Ihrer Rechte kontaktieren Sie Code Chefs GmbH, Sportweg 5, 3097 Liebefeld, Schweiz, E-Mail: markus@codechefs.ch."
+        ]
+      },
+      {
+        "title": "Meldungen an den EDÖB und Beschwerdemöglichkeit",
+        "paragraphs": [
+          "Betroffene Personen können sich bei hinreichenden Anzeichen für eine Verletzung von Datenschutzvorschriften an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) wenden."
+        ]
+      }
+    ]
+  }
+}
