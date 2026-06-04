@@ -1,9 +1,8 @@
-# trachsu.ch
+﻿# trachsu.ch
 
 [![Deploy with Vercel](https://vercel.com/button)](https://api.vercel.com/v1/integrations/deploy/prj_0fVOavLOZ58INxMEnllIF475qWu2/lByRCMNj8Q)
 
 - **Framework**: [Next.js](https://nextjs.org/)
-- **Authentication**: [NextAuth.js](https://next-auth.js.org)
 - **Deployment**: [Vercel](https://vercel.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com)
 - **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
