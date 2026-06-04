@@ -1,4 +1,4 @@
-import './global.css';
+﻿import './global.css';
 import clsx from 'clsx';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
@@ -15,18 +15,18 @@ const kaisei = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Markus Trachsel - Software Architect & DevOps Engineer',
+    default: 'Markus Trachsel - Softwarearchitekt & DevOps Engineer',
     template: '%s | Markus Trachsel',
   },
-  description: 'Software architect and DevOps engineer with 14+ years of experience in .NET, AWS, Azure, and process improvement. Specializing in increasing deployment frequency and optimizing software delivery pipelines.',
+  description: 'Softwarearchitekt und DevOps Engineer mit über 14 Jahren Erfahrung in .NET, AWS, Azure und Prozessverbesserung.',
   keywords: [
-    'software architect',
+    'softwarearchitekt',
     'DevOps engineer',
     '.NET Core',
     'AWS',
     'Azure',
-    'process improvement',
-    'Switzerland',
+    'prozessverbesserung',
+    'Schweiz',
     'Bern',
     'freelance',
     'software engineering'
@@ -42,20 +42,25 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://trachsu.ch'),
   alternates: {
     canonical: '/',
+    languages: {
+      de: '/',
+      en: '/en',
+    },
   },
   openGraph: {
-    title: 'Markus Trachsel - Software Architect & DevOps Engineer',
-    description: 'Software architect and DevOps engineer with 14+ years of experience in .NET, AWS, Azure, and process improvement. Specializing in increasing deployment frequency and optimizing software delivery pipelines.',
+    title: 'Markus Trachsel - Softwarearchitekt & DevOps Engineer',
+    description: 'Softwarearchitekt und DevOps Engineer mit über 14 Jahren Erfahrung in .NET, AWS, Azure und Prozessverbesserung.',
     url: 'https://trachsu.ch',
     siteName: 'Markus Trachsel',
-    locale: 'en-US',
+    locale: 'de-CH',
+    alternateLocale: ['en-US'],
     type: 'website',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Markus Trachsel - Software Architect & DevOps Engineer',
+        alt: 'Markus Trachsel - Softwarearchitekt & DevOps Engineer',
       },
     ],
   },
@@ -72,8 +77,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Markus Trachsel - Software Architect & DevOps Engineer',
-    description: 'Software architect and DevOps engineer with 14+ years of experience in .NET, AWS, Azure, and process improvement.',
+    title: 'Markus Trachsel - Softwarearchitekt & DevOps Engineer',
+    description: 'Softwarearchitekt und DevOps Engineer mit über 14 Jahren Erfahrung in .NET, AWS, Azure und Prozessverbesserung.',
     creator: '@trachsel_markus',
     images: ['/og-image.png'],
   },
@@ -96,7 +101,7 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
+      lang="de"
       className={clsx(
         'text-black bg-white dark:text-white dark:bg-[#111010]',
         kaisei.variable
@@ -110,8 +115,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Markus Trachsel",
-              "jobTitle": "Software Architect & DevOps Engineer",
-              "description": "Software architect and DevOps engineer with 14+ years of experience in .NET, AWS, Azure, and process improvement.",
+              "jobTitle": "Softwarearchitekt & DevOps Engineer",
+              "description": "Softwarearchitekt und DevOps Engineer mit über 14 Jahren Erfahrung in .NET, AWS, Azure und Prozessverbesserung.",
               "url": "https://trachsu.ch",
               "sameAs": [
                 "https://www.linkedin.com/in/markustrachsel",

@@ -1,0 +1,209 @@
+﻿{
+  "metadata": {
+    "title": "Markus Trachsel - Software Architect & DevOps Engineer",
+    "description": "Software architect and DevOps engineer with 14+ years of experience in .NET, AWS, Azure, and process improvement."
+  },
+  "home": {
+    "intro": "As a full-stack engineer, I bring a passion for empowering agile software teams through DevOps principles, small batch sizes, and frequent deployments. I prioritize people over technology.",
+    "ctaTitle": "Ready to improve your software delivery?",
+    "ctaText": "Let’s discuss how I can help optimize your DevOps processes, improve deployment frequency, or architect your next cloud solution.",
+    "ctaButton": "Get in Touch",
+    "servicesTitle": "Services",
+    "services": [
+      {
+        "title": "DevOps & Process Improvement",
+        "items": [
+          "CI/CD pipeline optimization",
+          "Deployment frequency improvement",
+          "DORA metrics implementation",
+          "Team productivity enhancement"
+        ]
+      },
+      {
+        "title": "Software Development",
+        "items": [
+          ".NET Core application development",
+          "React & TypeScript frontend",
+          "API development & integration",
+          "Cloud-native architecture"
+        ]
+      },
+      {
+        "title": "Cloud Architecture",
+        "items": [
+          "AWS & Azure expertise",
+          "Multi-cloud strategies",
+          "Serverless architecture",
+          "Infrastructure as Code"
+        ]
+      },
+      {
+        "title": "Consulting & Strategy",
+        "items": [
+          "Technical architecture review",
+          "Technology stack assessment",
+          "Team structure optimization",
+          "Digital transformation guidance"
+        ]
+      }
+    ],
+    "links": {
+      "linkedin": "contact me on linkedin",
+      "email": "contact me",
+      "github": "view my github",
+      "twitter": "follow me on X"
+    },
+    "bio": "Beyond work, I spend time with my family, enjoy playing basketball and love exploring my culinary creativity in the kitchen.",
+    "meat": "For great food you need high quality ingredients. Thus, I started dry aging my own beef at home. See more about this on the about page."
+  },
+  "about": {
+    "title": "About Me",
+    "greeting": "Hi I'm Markus Trachsel nice to meet you!",
+    "paragraphs": [
+      "As a software architect and full-stack engineer, I bring a passion for empowering agile software teams through DevOps principles, small change sizes, and frequent deployments to production. My approach prioritizes people over technology, recognizing the vital role software plays in supporting and improving organizational goals.",
+      "My expertise extends to process automation, integration and pipelines, which allows me to help clients optimize their productivity and efficiency through the use of appropriate technology."
+    ],
+    "skillsTitle": "Skills / Technologies",
+    "personalTitle": "Personal",
+    "personal": "In addition to my work, I have a variety of interests and hobbies that keep me busy. One of my favorite pastimes is playing basketball. I also enjoy spending quality time with my family, making memories and sharing experiences together. Another way I like to spend my free time is by exploring my culinary creativity in the kitchen.",
+    "sideHustleTitle": "Side Hustle",
+    "dryAgingTitle": "Dry Aging Meat",
+    "dryAging": "I dry age swiss beef and pork backs for 8 and 6 weeks respectively with the awesome products of dry-ager.com. This creates high quality, juicy steaks that make any networking event the talk of the town for weeks to come.",
+    "saucesTitle": "Sauces",
+    "sauces": [
+      "From the bones and leftovers of the dry aging, my colleague and I make amazing jus (glace de viande). Basically an absurdly reduced stock without the fat.",
+      "I’m also the co-creator of Bern’s self proclaimed BBQ sauce \"Bär-BQ\". This was all the rage back in 2019. We sold it in a few butcher shops in Bern and our personal online store - www.bärfoods.ch. (now decommissioned)"
+    ],
+    "linksTitle": "Links"
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "title": "CRM Dynamics 365 Customizer / Azure Software Engineer at BKW",
+        "text": "My first Freelancer Contract. I'm working with a team of engineers to support the sales and support needs of BKW via their CRM Dynamics 365 Platform.",
+        "tags": [
+          "Microsoft Dynamics 365",
+          "Azure Cloud",
+          "C#",
+          ".NET Core",
+          ".NET Framework"
+        ]
+      },
+      {
+        "title": "trachsu.ch",
+        "text": "My landing page, which gave me ample opportunity to dive into the world of react, nextjs and vercel.",
+        "tags": [
+          "react",
+          "next.js",
+          "type script",
+          "vercel"
+        ]
+      },
+      {
+        "title": "Simpline Workflow System",
+        "text": "I created a web portal using .NET Core, Orchard.net CMS, Bootstrap, and MS-SQL. It was hosted on Azure and deployed with Azure DevOps.",
+        "tags": [
+          "C#",
+          ".NET Core",
+          "Bootstrap",
+          "ms-sql"
+        ]
+      },
+      {
+        "title": "Increased deployment frequency at immoscout24",
+        "text": "Applying the DORA metrics and modern practices like CI/CD we increased the deployment frequency to production from 4 times per month to 200!",
+        "tags": [
+          "Github",
+          "octopus deploy",
+          "bamboo",
+          "process"
+        ]
+      },
+      {
+        "title": "Automated Personal Debtcheck API from Intrum Justitia AG for Meisterwerk GmbH",
+        "text": "Analysis, design, implementation and testing of the API. Integration and automation of the ordering process at the customer.",
+        "tags": [
+          "Shopify API",
+          "C#",
+          ".NET Core",
+          "Rest API"
+        ]
+      },
+      {
+        "title": "Cloud Project at Post IT",
+        "text": "Analysis, design, implementation and testing of an App Service, Logic App, Functions and Lambdas. Purpose of the project was to compare services on AWS and Azure creating a Workflow System.",
+        "tags": [
+          "C#",
+          ".NET Core",
+          "Rest API",
+          "Angular",
+          "AWS",
+          "Azure Cloud"
+        ]
+      }
+    ]
+  },
+  "impressum": {
+    "title": "Imprint",
+    "creditsTitle": "Credits",
+    "representative": "Authorized representative",
+    "credits": "Many thanks to Lee Robinson (leerob) for this awesome template!"
+  },
+  "dataprotection": {
+    "title": "Privacy Policy",
+    "intro": [
+      "Thank you for visiting our website trachsu.ch and for your interest in our company.",
+      "The protection of your personal data is important to us. This privacy policy informs you about the processing of personal data that we collect when you visit the site. Our data protection practice follows the Swiss Federal Data Protection Act (FADP)."
+    ],
+    "sections": [
+      {
+        "title": "Owner",
+        "paragraphs": [
+          "The data controller within the meaning of Art. 5 let. j FADP is Code Chefs GmbH, Sportweg 5, 3097 Liebefeld, Switzerland."
+        ]
+      },
+      {
+        "title": "Provision of the website and creation of log files",
+        "paragraphs": [
+          "Each time our website is accessed, our system automatically collects technical data from the device used to access it, such as browser type, operating system, host name, IP address, date and time of access, requested content, referrer, success status, and amount of data transmitted.",
+          "This data is stored in log files and is not stored together with personal data of a specific user. Temporary storage is required to deliver the website, combat abuse, resolve malfunctions, and protect our IT systems.",
+          "The technical data is deleted as soon as it is no longer required to ensure compatibility and security of the website, but no later than three months after access."
+        ]
+      },
+      {
+        "title": "Disclosure of information to third parties",
+        "paragraphs": [
+          "Personal data is processed in accordance with the principle of legality and the principle of good faith. Information is only disclosed where necessary for our services or where required by legal regulations, court decisions, or official orders."
+        ]
+      },
+      {
+        "title": "Integration of external web services",
+        "paragraphs": [
+          "External web services may be integrated on our website. By calling up our website, these providers may receive information about your visit. You can restrict this through browser settings or plug-ins; this may limit website functionality.",
+          "We use content from Legally ok GmbH, Schochenmühlestrasse 6, 6340 Baar, Switzerland. Processing is carried out in Switzerland. Further information is available at https://www.legally-ok.com/datenschutz/."
+        ]
+      },
+      {
+        "title": "Data security and communication by e-mail",
+        "paragraphs": [
+          "Your personal data is protected by technical and organizational measures. In the case of unencrypted communication by e-mail, we cannot guarantee complete data security on the transmission path."
+        ]
+      },
+      {
+        "title": "Duration of data storage and rights of the data subject",
+        "paragraphs": [
+          "We store personal data only to the extent and for as long as necessary to fulfil the purposes for which the personal data was collected, where we have a legitimate overriding interest, or where we are legally obliged to do so.",
+          "You may request information, correction, deletion, restriction, and data portability where the legal requirements are met. You may revoke consent at any time.",
+          "To exercise your rights, contact Code Chefs GmbH, Sportweg 5, 3097 Liebefeld, Switzerland, e-mail: markus@codechefs.ch."
+        ]
+      },
+      {
+        "title": "Notifications to the FDPIC and possibility to file a complaint",
+        "paragraphs": [
+          "Data subjects may contact the Federal Data Protection and Information Commissioner (FDPIC) if there are sufficient indications that a data processing operation could violate data protection regulations."
+        ]
+      }
+    ]
+  }
+}
