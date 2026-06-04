@@ -16,11 +16,13 @@ import {
 } from 'lib/i18n';
 import { getLocalizedMetadata } from 'lib/metadata';
 
-type PageProps = {
-  params: Promise<{
-    slug?: string[];
-  }>;
-};
+type RouteParams = Readonly<{
+  slug?: readonly string[];
+}>;
+
+type PageProps = Readonly<{
+  params: Promise<RouteParams>;
+}>;
 
 type RouteResolution = {
   locale: Locale;
@@ -41,7 +43,7 @@ function getRouteSegments(locale: Locale, path: RoutePath) {
   return locale === 'en' ? ['en', ...pathSegments] : pathSegments;
 }
 
-function resolveRoute(slug: string[] = []): RouteResolution | null {
+function resolveRoute(slug: readonly string[] = []): RouteResolution | null {
   const [firstSegment, ...restSegments] = slug;
 
   if (firstSegment === 'de') {
