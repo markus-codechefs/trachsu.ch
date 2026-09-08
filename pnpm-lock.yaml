@@ -12,8 +12,8 @@ importers:
         specifier: ^1.3.1
         version: 1.6.1(next@16.2.11(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)
       '@vercel/edge-config':
-        specifier: ^0.4.1
-        version: 0.4.1
+        specifier: ^1.4.3
+        version: 1.4.3(next@16.2.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))
       '@vercel/og':
         specifier: ^0.6.2
         version: 0.6.8
@@ -441,10 +441,17 @@ packages:
   '@vercel/edge-config-fs@0.1.0':
     resolution: {integrity: sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg==}
 
-  '@vercel/edge-config@0.4.1':
-    resolution: {integrity: sha512-4Mc3H7lE+x4RrL17nY8CWeEorvJHbkNbQTy9p8H1tO7y11WeKj5xeZSr07wNgfWInKXDUwj5FZ3qd/jIzjPxug==}
+  '@vercel/edge-config@1.4.3':
+    resolution: {integrity: sha512-8vTDATodRrH49wMzKEjZ8/5H2qs1aPkD0uRK585f/Fx4YN2wfHfY/3td9OFrh+gdnCq07z8A5f0hoY6xhBcPkg==}
     engines: {node: '>=14.6'}
-    deprecated: This version is no longer supported. Please upgrade to the latest version.
+    peerDependencies:
+      '@opentelemetry/api': ^1.7.0
+      next: '>=1'
+    peerDependenciesMeta:
+      '@opentelemetry/api':
+        optional: true
+      next:
+        optional: true
 
   '@vercel/og@0.6.8':
     resolution: {integrity: sha512-e4kQK9mP8ntpo3dACWirGod/hHv4qO5JMj9a/0a2AZto7b4persj5YP7t1Er372gTtYFTYxNhMx34jRvHooglw==}
@@ -1050,9 +1057,11 @@ snapshots:
 
   '@vercel/edge-config-fs@0.1.0': {}
 
-  '@vercel/edge-config@0.4.1':
+  '@vercel/edge-config@1.4.3(next@16.2.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))':
     dependencies:
       '@vercel/edge-config-fs': 0.1.0
+    optionalDependencies:
+      next: 16.2.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
 
   '@vercel/og@0.6.8':
     dependencies:
