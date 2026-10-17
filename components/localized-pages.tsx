@@ -116,7 +116,6 @@ export function HomePageContent({ locale }: { locale: Locale }) {
           <SocialLink href={profile.linkedin} label={t.links.linkedin} icon={<LinkedinIcon />} />
           <SocialLink href={`mailto:${profile.email}`} label={t.links.email} icon={<MailIcon />} />
           <SocialLink href={profile.github} label={t.links.github} icon={<GitHubIcon />} />
-          <SocialLink href={profile.twitter} label={t.links.twitter} icon={<TwitterIcon />} />
         </div>
       </div>
 
