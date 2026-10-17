@@ -35,7 +35,6 @@ type SiteContent = {
       linkedin: string;
       email: string;
       github: string;
-      twitter: string;
     };
     bio: string;
     meat: string;
