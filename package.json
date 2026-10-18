@@ -19,7 +19,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "4.3.3",
     "@tailwindcss/typography": "^0.5.16",
-    "@types/node": "25.0.3",
+    "@types/node": "26.6.5",
     "@types/react": "19.2.17",
     "autoprefixer": "^10.4.23",
     "postcss": "^8.5.23",
