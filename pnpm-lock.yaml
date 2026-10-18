@@ -12,8 +12,8 @@ importers:
         specifier: ^1.3.1
         version: 1.6.1(next@16.4.0(@types/node@25.0.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)
       '@vercel/edge-config':
-        specifier: ^1.4.3
-        version: 1.4.3(next@16.4.0(@types/node@25.0.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
+        specifier: ^1.5.1
+        version: 1.5.1(next@16.4.0(@types/node@25.0.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
       '@vercel/og':
         specifier: ^0.6.2
         version: 0.6.8
@@ -447,12 +447,10 @@ packages:
       vue-router:
         optional: true
 
-  '@vercel/edge-config-fs@0.1.0':
-    resolution: {integrity: sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg==}
-
-  '@vercel/edge-config@1.4.3':
-    resolution: {integrity: sha512-8vTDATodRrH49wMzKEjZ8/5H2qs1aPkD0uRK585f/Fx4YN2wfHfY/3td9OFrh+gdnCq07z8A5f0hoY6xhBcPkg==}
+  '@vercel/edge-config@1.5.1':
+    resolution: {integrity: sha512-eawv5LKqEk+KL9lw+lzExpPELE8B1DdvWhpswtSr5nkUujH4nOLq89fY565uWp5z70XzTnfx6E08KIVmgOwSjg==}
     engines: {node: '>=14.6'}
+    deprecated: This package has been renamed to @vercel/global-config. Install @vercel/global-config instead.
     peerDependencies:
       '@opentelemetry/api': ^1.7.0
       next: '>=1'
@@ -461,6 +459,9 @@ packages:
         optional: true
       next:
         optional: true
+
+  '@vercel/global-config-fs@0.1.0':
+    resolution: {integrity: sha512-xxMUwf96H/qKTA4Az+uh3xlVWkwnN3z400P5gex0uUsU8pe99njopYVyKVoUTfu8gN9xbHqaigWaIBr1+lufMg==}
 
   '@vercel/og@0.6.8':
     resolution: {integrity: sha512-e4kQK9mP8ntpo3dACWirGod/hHv4qO5JMj9a/0a2AZto7b4persj5YP7t1Er372gTtYFTYxNhMx34jRvHooglw==}
@@ -1075,13 +1076,13 @@ snapshots:
       next: 16.4.0(@types/node@25.0.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       react: 19.2.7
 
-  '@vercel/edge-config-fs@0.1.0': {}
-
-  '@vercel/edge-config@1.4.3(next@16.4.0(@types/node@25.0.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))':
+  '@vercel/edge-config@1.5.1(next@16.4.0(@types/node@25.0.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))':
     dependencies:
-      '@vercel/edge-config-fs': 0.1.0
+      '@vercel/global-config-fs': 0.1.0
     optionalDependencies:
       next: 16.4.0(@types/node@25.0.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+
+  '@vercel/global-config-fs@0.1.0': {}
 
   '@vercel/og@0.6.8':
     dependencies:
