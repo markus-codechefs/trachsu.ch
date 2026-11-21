@@ -1,4 +1,4 @@
-const { get } = require('@vercel/edge-config');
+const { get } = require('@vercel/global-config');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
